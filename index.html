@@ -1,8 +1,25 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Word</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="res/src/script.js"></script>
+    <link rel="stylesheet" href="/res/styles/stylesheet.css">
+</head>
+
 <body>
-  <h1>HELLO!</h1>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<div class="container">
+    <h1>Random w </h1>
+
+    <label>how many words</label>
+    <input id="length" type="number" name="length" min="1" value="8">
+
+    <p>generate words</p>
+    <button onclick="generatePassword()">Generate Password</button>
+    <div id="password-div">
+        <p id="password"></p>
+    </div>
+</div>
 </body>
- 
 </html>
